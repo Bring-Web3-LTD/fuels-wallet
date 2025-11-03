@@ -1,5 +1,6 @@
 import { ContentProxyConnection } from '@fuel-wallet/connections';
 import { WALLET_NAME } from '~/config';
+import './bring/contentScript';
 
 const connection = ContentProxyConnection.start(WALLET_NAME);
 

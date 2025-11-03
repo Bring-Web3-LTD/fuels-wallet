@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@bako-id/sdk": "0.0.18",
+    "@bringweb3/chrome-extension-kit": "1.5.2",
     "@fontsource/source-code-pro": "5.0.13",
     "@fuel-ui/css": "0.23.3",
     "@fuel-ui/icons": "0.23.3",
@@ -64,8 +65,8 @@
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.31",
     "@fuel-wallet/types": "workspace:*",
-    "@playwright/test": "1.54.0",
     "@fuels/connectors": "0.43.2",
+    "@playwright/test": "1.54.0",
     "@sentry/cli": "2.33.1",
     "@storybook/addon-a11y": "7.4.6",
     "@storybook/addon-actions": "7.4.6",

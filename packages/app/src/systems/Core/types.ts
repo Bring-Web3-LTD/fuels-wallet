@@ -45,6 +45,7 @@ export const Pages = {
   assetsAdd: route<'assetId'>('/assets/add/:assetId?'),
   consolidateCoins: route('/coins/consolidate'),
   errors: route('/errors'),
+  selectCashbackAddress: route('/select-cashback-address'),
 };
 
 export type AmountMap = Record<string, Maybe<BN>>;

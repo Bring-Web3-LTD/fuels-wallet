@@ -44,7 +44,8 @@ export default defineManifest({
   host_permissions: ['<all_urls>'],
   permissions: ['storage', 'alarms', 'tabs', 'clipboardWrite', 'scripting'],
   content_security_policy: {
-    extension_pages: "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+    extension_pages:
+      "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; frame-src https://*.bringweb3.io/",
   },
   // this is needed to work in e2e tests
   ...(IS_TEST

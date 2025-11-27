@@ -225,5 +225,4 @@ bringInitBackground({
   identifier: '9FaJTDcBCb48wkWKveRBg61jxfhvtg0V2iazjnA5',
   apiEndpoint: IS_DEVELOPMENT ? 'sandbox' : 'prod',
   isEnabledByDefault: true,
-  cashbackPagePath: '/pages/cashback/cashback.html',
 });
